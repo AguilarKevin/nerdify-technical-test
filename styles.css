@@ -4,6 +4,9 @@ html {
     font-size: 62.5%;
     scroll-behavior: smooth;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 * {
@@ -22,8 +25,8 @@ a {
 }
 
 body {
-    margin: 0 9vw;
     padding: 1vh 7.5vw;
+    margin: 3vh 9vw;
     /*box-shadow: 0px 2px 10px 7px rgba(0, 0, 0, 0.28);
     -webkit-box-shadow: 0px 2px 41px 7px rgba(0, 0, 0, 0.28);
     -moz-box-shadow: 0px 2px 41px 7px rgba(0, 0, 0, 0.28);
